@@ -1,0 +1,245 @@
+.index{
+    width: 750px;
+    background-color: #fff;
+}
+.status-bar{
+    width: 750px;
+    background-color: #1da1f2;
+}
+.list{
+    flex:2;
+    background-color: #fff;
+}
+$btns-height:150px;
+.f-c-w{
+    color: #fff;
+}
+.btns{
+    height: $btns-height;
+    flex-direction: row;
+}
+.half{
+    flex:1;
+    height: $btns-height;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    background-color: #2596ff;
+}
+.right{
+    background-color: #00b361;
+}
+.setpper{
+    width: 100px;
+    flex-direction: column;
+    height: $btns-height;
+    justify-content: center;
+    align-items: center;
+}
+.s-btn{
+    background-color: #fff;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+    border-bottom-width: 1px;
+}
+.btn-txt{
+    flex:2;
+    text-align: center;
+    font-size: 40px;
+}
+.toggleBreast{
+    width: 100px;
+    height: $btns-height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toggleBreastIcon{
+    width: 60px;
+    height: 60px;
+}
+.mask{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigVal{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 10px;
+}
+.bigValTxt{
+    color:#fff;
+    font-size: 80px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+.listItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+.listHeader{
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #FBBF03;
+}
+.listHeaderTxt{
+    color:#fff;
+    font-size: 30px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+.flag{
+    width: 60px;
+}
+.startTime{
+    width: 160px;
+}
+.remark{
+    width: 100px;
+}
+.duration{
+    width: 170px;
+}
+.fromLastTime{
+    width: 170px;
+}
+.del{
+    width: 90px;
+}
+.breast{
+    background-color: #f8f8f9;
+}
+.iconW{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listTxt{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 40px;
+    color:#666;
+}
+.breast_left{
+    color:#00b361;
+}
+.breast_right{
+    color:#fe7d37;
+}
+.breast_right_bg{
+    background-color: #fe7d37;
+}
+.delW{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.icon-del{
+    width: 40px;
+    height: 40px;
+}
+
+.delAll{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80;
+}
+.da_btns{
+    flex-direction: row;
+}
+.da_btn{
+    font-size: 24px;
+    color:#fff;
+    padding:10px 15px;
+    border-radius: 5px;
+}
+.da_cancel{
+    background-color: #1481e8;
+    margin:0 30px;
+}
+.da_confirm{
+    background-color: #ff4501;
+}
+
+.fromLastTimeLine{
+    font-size: 36px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #fff;
+    color:#999;
+}
+
+// 更新
+    .content{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .s{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding-left: 40;
+        padding-right: 40;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .u_title{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color:#1182e7;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .u_item{
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .u_n{
+        width: 50px;
+        text-align: left;
+        font-size: 30px;
+        color:#666;
+        line-height: 1.5;
+    }
+    .u_t{
+        flex:2;
+        text-align: left;
+        font-size: 30px;
+        color:#666;
+        line-height: 1.5;
+    }
